@@ -38,7 +38,7 @@ const Contact = () => {
           </p>
 
           <p className="special-font w-full font-zentry text-5xl leading-[0.9] md:text-[6rem]">
-            asds connect <br /> asdasdas asd <br /> asdasd <br /> asd
+            Let's Build Something <br /> Elevate Your Brand <br /> HAHA
           </p>
 
           <Button title="Contact us" containerClass="mt-10 cursor-pointer" />
