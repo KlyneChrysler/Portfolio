@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import Button from "./Button";
-import { TiLocationArrow } from "react-icons/ti";
 import { useWindowScroll } from "react-use";
 import gsap from "gsap";
+import { IoMdCall } from "react-icons/io";
 
-const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
+const navItems = ["Home", "About", "Projects", "Story", "Contact"];
 
 const Navbar = () => {
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
@@ -66,8 +66,8 @@ const Navbar = () => {
 
             <Button
               id="product-button"
-              title="Products"
-              rightIcon={<TiLocationArrow />}
+              title="Book a call"
+              rightIcon={<IoMdCall />}
               containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
             />
           </div>
